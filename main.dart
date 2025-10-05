@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'aqi_example.dart';
+import 'AssigmentWeek5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const AqiExample(),
+      home: const Assigmentweek5(),
     );
   }
 }
